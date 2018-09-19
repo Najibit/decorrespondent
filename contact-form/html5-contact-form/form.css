@@ -6,8 +6,18 @@ html,
 body {
 	height: 100%;
 }
+
+#top-bar {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	fill: black;
+}
 .imagebg {
-	background-image: url("images/avenue-2215317_1920.jpg");
+	background-image: url("https://dynamic.decorrespondent.nl/media/1920/5ba1177e74f191441943284.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -74,39 +84,39 @@ body {
    .input-field .prefix.active {
      color: #9c9c9c;
    }
-   input:not([type]):focus:not([readonly]), 
-   input[type=text]:focus:not([readonly]), 
-   input[type=password]:focus:not([readonly]), 
-   input[type=email]:focus:not([readonly]), 
-   input[type=url]:focus:not([readonly]), 
-   input[type=time]:focus:not([readonly]), 
-   input[type=date]:focus:not([readonly]), 
-   input[type=datetime]:focus:not([readonly]), 
-   input[type=datetime-local]:focus:not([readonly]), 
-   input[type=tel]:focus:not([readonly]), 
-   input[type=number]:focus:not([readonly]), 
-   input[type=search]:focus:not([readonly]), 
+   input:not([type]):focus:not([readonly]),
+   input[type=text]:focus:not([readonly]),
+   input[type=password]:focus:not([readonly]),
+   input[type=email]:focus:not([readonly]),
+   input[type=url]:focus:not([readonly]),
+   input[type=time]:focus:not([readonly]),
+   input[type=date]:focus:not([readonly]),
+   input[type=datetime]:focus:not([readonly]),
+   input[type=datetime-local]:focus:not([readonly]),
+   input[type=tel]:focus:not([readonly]),
+   input[type=number]:focus:not([readonly]),
+   input[type=search]:focus:not([readonly]),
    textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #009ddc;
     box-shadow: 0 1px 0 0 #009ddc;
 }
-input:not([type]):focus:not([readonly])+label, 
-input[type=text]:focus:not([readonly])+label, 
-input[type=password]:focus:not([readonly])+label, 
-input[type=email]:focus:not([readonly])+label, 
-input[type=url]:focus:not([readonly])+label, 
-input[type=time]:focus:not([readonly])+label, 
-input[type=date]:focus:not([readonly])+label, 
-input[type=datetime]:focus:not([readonly])+label, 
-input[type=datetime-local]:focus:not([readonly])+label, 
-input[type=tel]:focus:not([readonly])+label, 
-input[type=number]:focus:not([readonly])+label, 
-input[type=search]:focus:not([readonly])+label, 
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
     color: #009ddc;
 }
 .form-container .btn {
-    background-color: #009ddc;
+    background-color: #df5b57;
 
 }
 .submitbtn {
@@ -120,7 +130,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     letter-spacing: 0.1em;
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #df5b57;
     font-weight: 700;
     text-transform: uppercase;
     position: absolute;
